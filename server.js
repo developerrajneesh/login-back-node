@@ -7,7 +7,7 @@ app.use(express.json()); // For parsing JSON request bodies
 app.post('/api/login', (req, res) => {
   // Handle POST request here
   console.log(req.body); // Print the POST request body to console
-  res.redirect('http://localhost:4200/dashboard/')
+  res.redirect('https://sign-in-with-google-ang-build.onrender.com/dashboard/')
 });
 // app.post('/', (req, res) => {
 //    res.send("helo world")
